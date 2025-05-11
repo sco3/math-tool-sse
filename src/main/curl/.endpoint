@@ -1,0 +1,12 @@
+/mcp/messages/YTUxNmU0YmEtZDc2MC00ZWE2LWExNDMtOGIyMGYwY2JhZmE0
+lNjgtOGY2ZDI4MWE3NTc0
+
+event: message
+data: {"jsonrpc":"2.0","id":1,"result":{"capabilities":{"resources":{"listChanged":true},"logging":{},"tools":{"listChanged":true},"prompts":{"listChanged":true}},"serverInfo":{"name":"math-tool","version":"1.0.0-SNAPSHOT"},"protocolVersion":"2024-11-05"}}
+
+event: message
+data: {"jsonrpc":"2.0","id":1,"error":{"code":-32603,"message":"Client not initialized yet [ZDJhZjBmYjgtNjEzNy00N2VhLWJlNjgtOGY2ZDI4MWE3NTc0]"}}
+
+event: message
+data: {"jsonrpc":"2.0","id":null,"error":{"code":-32600,"message":"Invalid jsonrpc version: null"}}
+
