@@ -8,7 +8,7 @@ import io.quarkiverse.mcp.server.ToolArg;
 public class ArraySumTool {
 
 	@Tool(description = "Calculates the total sum of all integers in the array.")
-	Integer calculateSum( //
+	Integer calculateArraySum( //
 			@ToolArg(description = "Array of integers to sum.") //
 			int[] numbers //
 	) {
