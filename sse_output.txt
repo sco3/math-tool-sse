@@ -1,6 +1,9 @@
 event: endpoint
-data: /mcp/messages/NmEwMTA5NzMtZjQxNi00NmRjLTg3MmQtNjU0MmUzYWE3YThj
+data: /mcp/messages/NjZhNGQ0MmYtNzUwZS00ZWEwLTgzNWQtYmZhN2ZlMjg1OTc3
 
 event: message
-data: {"jsonrpc":"2.0","id":1,"error":{"code":-32601,"message":"The first message from the client must be \"initialize\": tools/call"}}
+data: {"jsonrpc":"2.0","id":"1","result":{"capabilities":{"logging":{},"tools":{}},"serverInfo":{"version":"1.0.0-SNAPSHOT","name":"math-tool-sse"},"protocolVersion":"2024-11-05"}}
+
+event: message
+data: {"jsonrpc":"2.0","id":1,"result":{"isError":false,"content":[{"text":"84","type":"text"}]}}
 
