@@ -1,0 +1,6 @@
+event: endpoint
+data: /mcp/messages/NmEwMTA5NzMtZjQxNi00NmRjLTg3MmQtNjU0MmUzYWE3YThj
+
+event: message
+data: {"jsonrpc":"2.0","id":1,"error":{"code":-32601,"message":"The first message from the client must be \"initialize\": tools/call"}}
+
